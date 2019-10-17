@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
 
     int yellow;
@@ -27,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
                 String tID = "t" + i + j;
                 int resID = getResources().getIdentifier(tID, "id", getPackageName());
                 tiles[i][j] = findViewById(resID);
+                Random random = new Random();
+                int[] colors = {yellow, orange};
+                int pos = random.nextInt(colors.length);
+                tiles[i][j].setBackgroundColor(colors[pos]);
             }
 
         }
@@ -63,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         if (isWin==16){
+            Context context = getApplicationContext();
+            Toast.makeText(context, "YOU ARE WINNER!", Toast.LENGTH_LONG).show();
+        }
+        else if(isWin==0){
             Context context = getApplicationContext();
             Toast.makeText(context, "YOU ARE WINNER!", Toast.LENGTH_LONG).show();
         }
