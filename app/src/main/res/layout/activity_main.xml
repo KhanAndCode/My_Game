@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:tag="00"
+            android:id="@+id/t00"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="01"
+            android:id="@+id/t01"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="02"
+            android:id="@+id/t02"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="03"
+            android:id="@+id/t03"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:tag="10"
+            android:id="@+id/t10"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="11"
+            android:id="@+id/t11"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="12"
+            android:id="@+id/t12"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="13"
+            android:id="@+id/t13"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/t20"
+            android:tag="20"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="21"
+            android:id="@+id/t21"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="22"
+            android:id="@+id/t22"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="23"
+            android:id="@+id/t23"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:tag="30"
+            android:id="@+id/t30"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="31"
+            android:id="@+id/t31"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="32"
+            android:id="@+id/t32"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:tag="33"
+            android:id="@+id/t33"
+            android:onClick="onClick"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
